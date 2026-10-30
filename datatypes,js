@@ -1,0 +1,10 @@
+typeof "Sheryians"   // "string"
+typeof 99            // "number"
+typeof true          // "boolean"
+typeof undefined     // "undefined"
+typeof 123n          // "bigint"
+typeof null          // "object"   <- historical bug
+typeof []            // "object"   <- arrays are objects
+typeof {}            // "object"
+typeof function(){}  // "function"
+typeof NaN           // "number"   <- yes, really
